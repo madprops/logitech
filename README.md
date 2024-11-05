@@ -2,7 +2,13 @@
 
 ![](image.jpg)
 
-Meant to be used with [input-remapper](https://github.com/sezanzeb/input-remapper)
+This is a configuration that can be applied to a Logitech F310.
+
+This is meant for controlling a linux system.
+
+Can be suitable for light browsing or navigation.
+
+It works through [input-remapper](https://github.com/sezanzeb/input-remapper)
 
 ---
 
