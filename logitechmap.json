@@ -10,6 +10,7 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 1,
+        "name": "Stick Vertical",
         "mapping_type": "analog",
         "gain": 0.14,
         "expo": 1.0
@@ -25,6 +26,7 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 0,
+        "name": "Stick Horizontal",
         "mapping_type": "analog",
         "gain": 0.14,
         "expo": 1.0
@@ -39,6 +41,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Super_L + Left",
+        "name": "Top Left",
         "mapping_type": "key_macro"
     },
     {
@@ -51,6 +54,7 @@
         ],
         "target_uinput": "keyboard + mouse",
         "output_symbol": "BTN_RIGHT",
+        "name": "Button Down",
         "mapping_type": "key_macro"
     },
     {
@@ -63,6 +67,7 @@
         ],
         "target_uinput": "keyboard + mouse",
         "output_symbol": "BTN_LEFT",
+        "name": "Button Left",
         "mapping_type": "key_macro"
     },
     {
@@ -75,6 +80,7 @@
         ],
         "target_uinput": "keyboard + mouse",
         "output_symbol": "BTN_MIDDLE",
+        "name": "Button Top",
         "mapping_type": "key_macro"
     },
     {
@@ -88,6 +94,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "XF86AudioLowerVolume",
+        "name": "Pad Down",
         "mapping_type": "key_macro"
     },
     {
@@ -101,6 +108,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "XF86AudioRaiseVolume",
+        "name": "Pad Up",
         "mapping_type": "key_macro"
     },
     {
@@ -113,6 +121,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Super_L + Right",
+        "name": "Top Right",
         "mapping_type": "key_macro"
     },
     {
@@ -126,6 +135,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Control_L + Home",
+        "name": "Trigger Left",
         "mapping_type": "key_macro"
     },
     {
@@ -139,6 +149,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Control_L  + End",
+        "name": "Trigger Right",
         "mapping_type": "key_macro"
     },
     {
@@ -152,8 +163,8 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 8,
+        "name": "Stick Right",
         "mapping_type": "analog",
-        "deadzone": 0.18,
         "gain": -0.28,
         "expo": -1.0
     },
@@ -167,6 +178,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Escape",
+        "name": "Button Right",
         "mapping_type": "key_macro"
     },
     {
@@ -180,6 +192,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "XF86AudioPrev",
+        "name": "Pad Left",
         "mapping_type": "key_macro"
     },
     {
@@ -193,6 +206,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "XF86AudioNext",
+        "name": "Pad Right",
         "mapping_type": "key_macro"
     },
     {
@@ -205,6 +219,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_F5",
+        "name": "Thumb Left",
         "mapping_type": "key_macro"
     },
     {
@@ -217,6 +232,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Super_L + Shift_L + bracketright",
+        "name": "Thumb Right",
         "mapping_type": "key_macro"
     },
     {
@@ -229,6 +245,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "XF86AudioPause",
+        "name": "Select",
         "mapping_type": "key_macro"
     },
     {
@@ -241,6 +258,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Super_L + Shift_L + L",
+        "name": "Start",
         "mapping_type": "key_macro"
     }
 ]
