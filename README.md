@@ -8,7 +8,7 @@ Meant to be used with [input-remapper](https://github.com/sezanzeb/input-remappe
 
 Left Stick: Move mouse cursor
 
-Right Stick: Vertical scrolling (wheel)
+Right Stick: Vertical and horizontal wheel scrolling
 
 ---
 
