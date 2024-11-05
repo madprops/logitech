@@ -48,7 +48,7 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Button Up:** Middle Click
 
-**Button Right:** Mod Button (see below)
+**Button Right:** Mod Button (See below)
 
 ---
 
@@ -103,6 +103,8 @@ I'll refer to it as `Mod`.
 **Mod + Pad Right:** Go Forward
 
 **Mod + Top Left:** Esc Key
+
+---
 
 ## Hints
 
