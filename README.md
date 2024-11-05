@@ -82,6 +82,25 @@ This is useful to fast-travel instead of moving the cursor with the stick all th
 
 It wraps when it reaches the last screen.
 
+The functions in my `wm` look like this:
+
+```lua
+function Utils.center_cursor()
+  local screen = Utils.my_screen()
+  local workarea = screen.workarea
+
+  mouse.coords({
+    x = workarea.x + workarea.width / 2,
+    y = workarea.y + workarea.height / 2,
+  })
+end
+
+function Utils.cursor_on_next_screen()
+	awful.screen.focus_relative(1)
+	Utils.center_cursor()
+end
+```
+
 ---
 
 **Thumb Right:** Refresh (F5)
@@ -93,6 +112,23 @@ It wraps when it reaches the last screen.
 **Start:** Lock screen
 
 **Mode:** Toggle maximize on window under cursor
+
+The functions in my `wm` look like this:
+
+```lua
+function Utils.maximize(c)
+	c.maximized = not c.maximized
+	Utils.focus(c)
+end
+
+function Utils.maximize_on_cursor(c)
+	local c = mouse.object_under_pointer()
+
+	if c then
+		Utils.maximize(c)
+	end
+end
+```
 
 ---
 
