@@ -171,19 +171,6 @@
     {
         "input_combination": [
             {
-                "type": 1,
-                "code": 305,
-                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Escape",
-        "name": "Button Right",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
                 "type": 3,
                 "code": 16,
                 "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
@@ -289,5 +276,99 @@
         "mapping_type": "analog",
         "gain": 0.6,
         "expo": -1.0
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 3,
+                "code": 17,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + KEY_KPPLUS",
+        "name": "Button Right + Pad Up",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 3,
+                "code": 17,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + KEY_KPMINUS",
+        "name": "Button Right + Pad Down",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 3,
+                "code": 16,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_BACK",
+        "name": "Button Right + Pad Left",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 3,
+                "code": 16,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_FORWARD",
+        "name": "Button Right + Pad Right",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 1,
+                "code": 310,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_ESC",
+        "name": "Button Right + Top Left",
+        "mapping_type": "key_macro"
     }
 ]

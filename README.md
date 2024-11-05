@@ -48,7 +48,7 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Button Up:** Middle Click
 
-**Button Right:** Esc
+**Button Right:** Mod Button (see below)
 
 ---
 
@@ -87,6 +87,22 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 **Mode:** Toggle maximize on window under cursor
 
 ---
+
+`Button Right` is a button that can be used with other buttons for further mappings.
+
+I'll refer to it as `Mod`.
+
+---
+
+**Mod + Pad Up:** Zoom In
+
+**Mod + Pad Down:** Zoom Out
+
+**Mod + Pad Left:** Go Back
+
+**Mod + Pad Right:** Go Forward
+
+**Mod + Top Left:** Esc Key
 
 ## Hints
 
