@@ -12,56 +12,56 @@ It works through [input-remapper](https://github.com/sezanzeb/input-remapper).
 
 ---
 
-Stick Left: Move mouse cursor
+**Stick Left:** Move mouse cursor
 
-Stick Right: Vertical and horizontal wheel scrolling
-
----
-
-Button Left: Click
-
-Button Down: Right Click
-
-Button Up: Middle Click
-
-Button Right: Esc
+**Stick Right:** Vertical and horizontal wheel scrolling
 
 ---
 
-Pad Left: Audio Prev
+**Button Left:** Click
 
-Pad Right: Audio Next
+**Button Down:** Right Click
 
-Pad Top: Volume Up
+**Button Up:** Middle Click
 
-Pad Bottom: Volume Down
-
----
-
-Top Left: Previous Tag
-
-Top Right: Next Tag
+**Button Right:** Esc
 
 ---
 
-Trigger Left: Go To Top
+**Pad Left:** Audio Prev
 
-Trigger Right: Go To Bottom
+**Pad Right:** Audio Next
 
----
+**Pad Top:** Volume Up
 
-Thumb Left: Move cursor to next screen
-
-Thumb Right: Refresh (F5)
+**Pad Bottom:** Volume Down
 
 ---
 
-Select: Play/Pause music
+**Top Left:** Previous Tag
 
-Start: Lock screen
-
-Mode: Toggle maximize on window under cursor
+**Top Right:** Next Tag
 
 ---
 
-Hint: If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
+**Trigger Left:** Go To Top
+
+**Trigger Right:** Go To Bottom
+
+---
+
+**Thumb Left:** Move cursor to next screen
+
+**Thumb Right:** Refresh (F5)
+
+---
+
+**Select:** Play/Pause music
+
+**Start:** Lock screen
+
+**Mode:** Toggle maximize on window under cursor
+
+---
+
+**Hint:** If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
