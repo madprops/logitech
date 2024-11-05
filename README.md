@@ -30,6 +30,12 @@ The `json` file should be placed here:
 
 ## Configuration
 
+This is the current configuration but you can change it as you see fit.
+
+It includes some shortcuts I use in my `wm` which might not be relevant to yours.
+
+---
+
 **Stick Left:** Move mouse cursor
 
 **Stick Right:** Vertical and horizontal wheel scrolling
