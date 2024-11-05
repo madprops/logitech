@@ -14,6 +14,12 @@ It works through [input-remapper](https://github.com/sezanzeb/input-remapper):
 
 ![](input_remapper.jpg)
 
+There's an `AUR` package [here](https://aur.archlinux.org/packages/input-remapper-git).
+
+Remember to `sudo systemctl start input-remapper` after installation.
+
+---
+
 The `json` file should be placed here:
 
  `~/.config/input-remapper-2/presets/Logitech Gamepad F310`
@@ -76,6 +82,6 @@ The `json` file should be placed here:
 
 ## Hints
 
-If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
+If `input-remapper` is not detecting the device after installation, try re-plugging the controller and restart the program.
 
 `input-remapper-gtk` might periodically stop working while you're editing buttons because it loses root access, you're supposed to input the password again in the terminal where you run it.
