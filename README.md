@@ -54,4 +54,4 @@ Select: Play/Pause music
 
 Start: Lock screen
 
-Mode: Toggle maximize
+Mode: Toggle maximize on window under cursor

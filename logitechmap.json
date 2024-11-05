@@ -270,7 +270,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Super_L + Backspace",
+        "output_symbol": "Super_L + Shift_L + KEY_M",
         "name": "Mode",
         "mapping_type": "key_macro"
     }
