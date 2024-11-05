@@ -56,9 +56,9 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Pad Right:** Audio Next
 
-**Pad Top:** Volume Up
+**Pad Up:** Volume Up
 
-**Pad Bottom:** Volume Down
+**Pad Down:** Volume Down
 
 ---
 
