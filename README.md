@@ -31,3 +31,7 @@ Top Right: Next Tag
 Trigger Left: Go To Top
 
 Trigger Right: Go To Bottom
+
+Left Stick Press: Refresh
+
+Right Stick Press: Move cursor to next screen
