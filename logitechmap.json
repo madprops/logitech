@@ -10,7 +10,7 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 1,
-        "name": "Stick Vertical",
+        "name": "Stick Left (Vertical)",
         "mapping_type": "analog",
         "gain": 0.14,
         "expo": 1.0
@@ -26,7 +26,7 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 0,
-        "name": "Stick Horizontal",
+        "name": "Stick Left (Horizontal)",
         "mapping_type": "analog",
         "gain": 0.14,
         "expo": 1.0
@@ -163,7 +163,7 @@
         "target_uinput": "mouse",
         "output_type": 2,
         "output_code": 8,
-        "name": "Stick Right",
+        "name": "Stick Right (Vertical)",
         "mapping_type": "analog",
         "gain": -0.28,
         "expo": -1.0
@@ -273,5 +273,21 @@
         "output_symbol": "Super_L + Shift_L + KEY_M",
         "name": "Mode",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 3,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 6,
+        "name": "Stick Right (Horizontal)",
+        "mapping_type": "analog",
+        "gain": 0.6,
+        "expo": -1.0
     }
 ]
