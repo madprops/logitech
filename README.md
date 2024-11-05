@@ -88,6 +88,8 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 ---
 
+## Mod Button
+
 `Button Right` is a button that can be used with other buttons for further mappings.
 
 I'll refer to it as `Mod`.
