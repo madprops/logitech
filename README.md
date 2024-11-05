@@ -18,6 +18,8 @@ There's an `AUR` package [here](https://aur.archlinux.org/packages/input-remappe
 
 Remember to `sudo systemctl start input-remapper` after installation.
 
+Then launch `input-remapper-gtk` in a terminal.
+
 ---
 
 The `json` file should be placed here:
