@@ -2,7 +2,9 @@
 
 ![](image.jpg)
 
-This is a configuration that can be applied to a Logitech F310.
+This is a configuration that can be applied to a `Logitech F310`.
+
+![](controller.jpg)
 
 This is meant for controlling a linux system.
 
