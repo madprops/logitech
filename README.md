@@ -96,8 +96,8 @@ function Utils.center_cursor()
 end
 
 function Utils.cursor_on_next_screen()
-	awful.screen.focus_relative(1)
-	Utils.center_cursor()
+  awful.screen.focus_relative(1)
+  Utils.center_cursor()
 end
 ```
 
@@ -117,16 +117,16 @@ The functions in my `wm` look like this:
 
 ```lua
 function Utils.maximize(c)
-	c.maximized = not c.maximized
-	Utils.focus(c)
+  c.maximized = not c.maximized
+  Utils.focus(c)
 end
 
 function Utils.maximize_on_cursor(c)
-	local c = mouse.object_under_pointer()
+  local c = mouse.object_under_pointer()
 
-	if c then
-		Utils.maximize(c)
-	end
+  if c then
+    Utils.maximize(c)
+  end
 end
 ```
 
