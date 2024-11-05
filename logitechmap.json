@@ -218,5 +218,29 @@
         "target_uinput": "keyboard",
         "output_symbol": "Super_L + Shift_L + bracketright",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 314,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioPause",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 315,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + Shift_L + L",
+        "mapping_type": "key_macro"
     }
 ]

@@ -47,3 +47,9 @@ Trigger Right: Go To Bottom
 Left Stick Press: Refresh
 
 Right Stick Press: Move cursor to next screen
+
+---
+
+Select: Play/Pause music
+
+Start: Do something
