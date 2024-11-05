@@ -52,4 +52,4 @@ Right Stick Press: Move cursor to next screen
 
 Select: Play/Pause music
 
-Start: Do something
+Start: Lock screen
