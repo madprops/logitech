@@ -20,6 +20,8 @@ The `json` file should be placed here:
 
 ---
 
+## Configuration
+
 **Stick Left:** Move mouse cursor
 
 **Stick Right:** Vertical and horizontal wheel scrolling
@@ -72,4 +74,8 @@ The `json` file should be placed here:
 
 ---
 
-**Hint:** If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
+## Hints
+
+If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
+
+`input-remapper-gtk` might periodically stop working while you're editing buttons because it loses root access, you're supposed to input the password again in the terminal where you run it.
