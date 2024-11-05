@@ -157,3 +157,5 @@ I'll refer to it as `Mod`.
 If `input-remapper` is not detecting the device after installation, try re-plugging the controller and restart the program.
 
 `input-remapper-gtk` might periodically stop working while you're editing buttons because it loses root access, you're supposed to input the password again in the terminal where you run it.
+
+`input-remapper-gtk` shows important information in the footer at the bottom.
