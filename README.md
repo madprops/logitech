@@ -76,6 +76,14 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Thumb Left:** Move cursor to next screen
 
+In my `wm` this places the cursor on the next screen to the right and places it at the center.
+
+This is useful to fast-travel instead of moving the cursor with the stick all the way there.
+
+It wraps when it reaches the last screen.
+
+---
+
 **Thumb Right:** Refresh (F5)
 
 ---
