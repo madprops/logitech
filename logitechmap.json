@@ -216,7 +216,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Super_L + bracketright",
+        "output_symbol": "Super_L + Shift_L + bracketright",
         "mapping_type": "key_macro"
     }
 ]
