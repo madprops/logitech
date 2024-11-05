@@ -150,6 +150,8 @@ I'll refer to it as `Mod`.
 
 **Mod + Top Left:** Esc Key
 
+**Mod + Stick Left:** Faster cursor movement (Turbo)
+
 ---
 
 ## Hints
