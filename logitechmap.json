@@ -218,7 +218,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_F5",
+        "output_symbol": "Super_L + Shift_L + bracketright",
         "name": "Thumb Left",
         "mapping_type": "key_macro"
     },
@@ -231,7 +231,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Super_L + Shift_L + bracketright",
+        "output_symbol": "KEY_F5",
         "name": "Thumb Right",
         "mapping_type": "key_macro"
     },

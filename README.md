@@ -44,9 +44,9 @@ Trigger Right: Go To Bottom
 
 ---
 
-Left Stick Press: Refresh
+Left Stick Press: Move cursor to next screen
 
-Right Stick Press: Move cursor to next screen
+Right Stick Press: Refresh (F5)
 
 ---
 
