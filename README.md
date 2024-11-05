@@ -111,7 +111,7 @@ end
 
 **Start:** Lock screen
 
-**Mode:** Toggle maximize on window under cursor
+**Big Button:** Toggle maximize on window under cursor
 
 The functions in my `wm` look like this:
 
@@ -151,6 +151,20 @@ I'll refer to it as `Mod`.
 **Mod + Top Left:** Esc Key
 
 **Mod + Stick Left:** Faster cursor movement (Turbo)
+
+**Mod + Big Button:** Close application under cursor
+
+The function in my `wm` looks similar to:
+
+```lua
+function Utils.close_on_cursor(c)
+  local c = mouse.object_under_pointer()
+
+  if c then
+    c:kill()
+  end
+end
+```
 
 ---
 
