@@ -8,7 +8,7 @@ This is meant for controlling a linux system.
 
 Can be suitable for light browsing or navigation.
 
-It works through [input-remapper](https://github.com/sezanzeb/input-remapper)
+It works through [input-remapper](https://github.com/sezanzeb/input-remapper).
 
 ---
 
@@ -61,3 +61,7 @@ Select: Play/Pause music
 Start: Lock screen
 
 Mode: Toggle maximize on window under cursor
+
+---
+
+Hint: If `input-remapper` is not detecting the device, try re-plugging the controller and restart the program.
