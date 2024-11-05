@@ -2,35 +2,47 @@
 
 ![](image.jpg)
 
-Meant to be used with `input-remapper`
+Meant to be used with [input-remapper](https://github.com/sezanzeb/input-remapper)
+
+---
 
 Left Stick: Move mouse cursor
 
 Right Stick: Vertical scrolling (wheel)
 
-Button-Left: Click
+---
 
-Button-Down: Right Click
+Button Left: Click
 
-Button-Up: Middle Click
+Button Down: Right Click
 
-Button-Right: Esc
+Button Up: Middle Click
 
-Pad-Left: Audio Prev
+Button Right: Esc
 
-Pad-Right: Audio Next
+---
 
-Pad-Top: Volume Up
+Pad Left: Audio Prev
 
-Pad-Bottom: Volume Down
+Pad Right: Audio Next
+
+Pad Top: Volume Up
+
+Pad Bottom: Volume Down
+
+---
 
 Top Left: Previous Tag
 
 Top Right: Next Tag
 
+---
+
 Trigger Left: Go To Top
 
 Trigger Right: Go To Bottom
+
+---
 
 Left Stick Press: Refresh
 
