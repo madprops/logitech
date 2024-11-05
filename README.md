@@ -6,9 +6,9 @@ Meant to be used with [input-remapper](https://github.com/sezanzeb/input-remappe
 
 ---
 
-Left Stick: Move mouse cursor
+Stick Left: Move mouse cursor
 
-Right Stick: Vertical and horizontal wheel scrolling
+Stick Right: Vertical and horizontal wheel scrolling
 
 ---
 
@@ -44,9 +44,9 @@ Trigger Right: Go To Bottom
 
 ---
 
-Left Stick Press: Move cursor to next screen
+Thumb Left: Move cursor to next screen
 
-Right Stick Press: Refresh (F5)
+Thumb Right: Refresh (F5)
 
 ---
 
