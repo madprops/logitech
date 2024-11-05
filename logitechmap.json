@@ -1,0 +1,222 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 1,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 1,
+        "mapping_type": "analog",
+        "gain": 0.14,
+        "expo": 1.0
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 0,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 0,
+        "mapping_type": "analog",
+        "gain": 0.14,
+        "expo": 1.0
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 310,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + Left",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 304,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard + mouse",
+        "output_symbol": "BTN_RIGHT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 307,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard + mouse",
+        "output_symbol": "BTN_LEFT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 308,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard + mouse",
+        "output_symbol": "BTN_MIDDLE",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 17,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioLowerVolume",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 17,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioRaiseVolume",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 311,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + Right",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 2,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 20
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + Home",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 5,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 20
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L  + End",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 4,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 8,
+        "mapping_type": "analog",
+        "deadzone": 0.18,
+        "gain": -0.28,
+        "expo": -1.0
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Escape",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 16,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioPrev",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 16,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86AudioNext",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 317,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_F5",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 318,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + bracketright",
+        "mapping_type": "key_macro"
+    }
+]
