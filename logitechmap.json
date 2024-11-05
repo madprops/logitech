@@ -293,7 +293,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Control_L + KEY_KPPLUS",
-        "name": "Button Right + Pad Up",
+        "name": "Mod + Pad Up",
         "mapping_type": "key_macro"
     },
     {
@@ -312,7 +312,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Control_L + KEY_KPMINUS",
-        "name": "Button Right + Pad Down",
+        "name": "Mod + Pad Down",
         "mapping_type": "key_macro"
     },
     {
@@ -331,7 +331,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_BACK",
-        "name": "Button Right + Pad Left",
+        "name": "Mod + Pad Left",
         "mapping_type": "key_macro"
     },
     {
@@ -350,7 +350,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_FORWARD",
-        "name": "Button Right + Pad Right",
+        "name": "Mod + Pad Right",
         "mapping_type": "key_macro"
     },
     {
@@ -368,7 +368,7 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "KEY_ESC",
-        "name": "Button Right + Top Left",
+        "name": "Mod + Top Left",
         "mapping_type": "key_macro"
     }
 ]
