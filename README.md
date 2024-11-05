@@ -10,7 +10,13 @@ This is meant for controlling a linux system.
 
 Can be suitable for light browsing or navigation.
 
-It works through [input-remapper](https://github.com/sezanzeb/input-remapper).
+It works through [input-remapper](https://github.com/sezanzeb/input-remapper):
+
+![](input_remapper.jpg)
+
+The `json` file should be placed here:
+
+ `~/.config/input-remapper-2/presets/Logitech Gamepad F310`
 
 ---
 
