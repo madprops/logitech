@@ -185,6 +185,8 @@ I'll refer to it as `Mod`.
 
 **Mod + Top Left:** Esc Key
 
+**Mod + Top Right:** ScrollLock (I use it to trigger the Util Screen)
+
 **Mod + Stick Left:** Faster cursor movement (Turbo)
 
 **Mod + Stick Right:** Horizontal wheel scrolling
