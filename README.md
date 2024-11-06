@@ -44,9 +44,9 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Button Left:** Click
 
-**Button Down:** Right Click
+**Button Bottom:** Right Click
 
-**Button Up:** Middle Click
+**Button Top:** Middle Click
 
 **Button Right:** Mod Button (See below)
 
@@ -208,6 +208,8 @@ end
 **Mod + Select:** Ctrl + c (Copy)
 
 **Mod + Start:** Ctrl + v (Paste)
+
+**Mod + Button Top:** Enter
 
 ---
 
