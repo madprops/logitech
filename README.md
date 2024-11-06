@@ -187,6 +187,8 @@ I'll refer to it as `Mod`.
 
 **Mod + Stick Left:** Faster cursor movement (Turbo)
 
+**Mod + Stick Right:** Horizontal wheel scrolling
+
 **Mod + Big Button:** Close application under cursor
 
 The function in my `wm` looks similar to:

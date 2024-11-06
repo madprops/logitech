@@ -486,5 +486,25 @@
         "output_symbol": "Control_L + KEY_V",
         "name": "Mod + Start",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 3,
+                "code": 3,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 6,
+        "name": "Mod + Stick Right (Horizontal)",
+        "mapping_type": "analog",
+        "gain": 0.62
     }
 ]
