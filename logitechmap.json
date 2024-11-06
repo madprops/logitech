@@ -450,5 +450,41 @@
         "output_symbol": "Control_L + Shift_L + KEY_ESC",
         "name": "Mod + Big Button",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 1,
+                "code": 314,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + KEY_C",
+        "name": "Mod + Select",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 305,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            },
+            {
+                "type": 1,
+                "code": 315,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + KEY_V",
+        "name": "Mod + Start",
+        "mapping_type": "key_macro"
     }
 ]

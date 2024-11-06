@@ -201,6 +201,10 @@ function Utils.close_on_cursor(c)
 end
 ```
 
+**Mod + Select:** Ctrl + c (Copy)
+
+**Mod + Start:** Ctrl + v (Paste)
+
 ---
 
 ## Hints
