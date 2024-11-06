@@ -38,7 +38,7 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 **Stick Left:** Move mouse cursor
 
-**Stick Right:** Vertical and horizontal wheel scrolling
+**Stick Right:** Vertical wheel scrolling
 
 ---
 
