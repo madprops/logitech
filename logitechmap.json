@@ -12,6 +12,7 @@
         "output_code": 1,
         "name": "Stick Left (Vertical)",
         "mapping_type": "analog",
+        "deadzone": 0.05,
         "gain": 0.12,
         "expo": 1.0
     },
@@ -28,6 +29,7 @@
         "output_code": 0,
         "name": "Stick Left (Horizontal)",
         "mapping_type": "analog",
+        "deadzone": 0.05,
         "gain": 0.12,
         "expo": 1.0
     },
@@ -152,6 +154,7 @@
         "output_code": 8,
         "name": "Stick Right (Vertical)",
         "mapping_type": "analog",
+        "deadzone": 0.05,
         "gain": -0.28,
         "expo": -1.0
     },
