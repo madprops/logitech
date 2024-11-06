@@ -68,9 +68,31 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 ---
 
-**Trigger Left:** Go To Top
+**Trigger Left:** Go To Top under cursor
 
-**Trigger Right:** Go To Bottom
+**Trigger Right:** Go To Bottom under cursor
+
+Functions in my `wm` look like:
+
+```lua
+function Utils.home_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(true, false, false, "Home")
+  end
+end
+
+function Utils.end_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(true, false, false, "End")
+  end
+end
+```
 
 ---
 
@@ -103,7 +125,20 @@ end
 
 ---
 
-**Thumb Right:** Refresh (F5)
+**Thumb Right:** Refresh (F5) under cursor
+
+Functions in my `wm` look like:
+
+```lua
+function Utils.refresh_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(false, false, false, "F5")
+  end
+end
+```
 
 ---
 

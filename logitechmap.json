@@ -121,7 +121,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Control_L + Home",
+        "output_symbol": "Super_L  + Shift_L + KEY_HOME",
         "name": "Trigger Left",
         "mapping_type": "key_macro"
     },
@@ -135,7 +135,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Control_L  + End",
+        "output_symbol": "Super_L  + Shift_L + KEY_END",
         "name": "Trigger Right",
         "mapping_type": "key_macro"
     },
@@ -205,7 +205,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_F5",
+        "output_symbol": "Super_L + Shift_L + KEY_F5",
         "name": "Thumb Right",
         "mapping_type": "key_macro"
     },
