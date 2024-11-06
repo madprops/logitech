@@ -22,7 +22,7 @@ Then launch `input-remapper-gtk` in a terminal.
 
 ---
 
-The `json` file should be placed here:
+The [json](logitechmap.json) file should be placed here:
 
  `~/.config/input-remapper-2/presets/Logitech Gamepad F310`
 
