@@ -1,0 +1,139 @@
+<h2>Mappings for Logitech F310</h2>
+<p><img src="image.jpg" alt=""></p>
+<p>This is a configuration that can be applied to a <code>Logitech F310</code>:</p>
+<p><img src="controller.jpg" alt=""></p>
+<p>This is meant for controlling a linux system.</p>
+<p>Can be suitable for light browsing or navigation.</p>
+<p>It works through <a href="https://github.com/sezanzeb/input-remapper">input-remapper</a>:</p>
+<p><img src="input_remapper.jpg" alt=""></p>
+<p>There&#39;s an <code>AUR</code> package <a href="https://aur.archlinux.org/packages/input-remapper-git">here</a>.</p>
+<p>Remember to <code>sudo systemctl start input-remapper</code> after installation.</p>
+<p>Then launch <code>input-remapper-gtk</code> in a terminal.</p>
+<hr>
+<p>The <a href="logitechmap.json">json</a> file should be placed here:</p>
+<p> <code>~/.config/input-remapper-2/presets/Logitech Gamepad F310</code></p>
+<hr>
+<h2>Configuration</h2>
+<p>This is the current configuration but you can change it as you see fit.</p>
+<p>It includes some shortcuts I use in my <code>wm</code> which might not be relevant to yours.</p>
+<hr>
+<p><strong>Stick Left:</strong> Move mouse cursor</p>
+<p><strong>Stick Right:</strong> Vertical wheel scrolling</p>
+<hr>
+<p><strong>Button Left:</strong> Click</p>
+<p><strong>Button Bottom:</strong> Right Click</p>
+<p><strong>Button Top:</strong> Middle Click</p>
+<p><strong>Button Right:</strong> Mod Button (See below)</p>
+<hr>
+<p><strong>Pad Up:</strong> Zoom In</p>
+<p><strong>Pad Down:</strong> Zoom Out</p>
+<p><strong>Pad Left:</strong> Go Back</p>
+<p><strong>Pad Right:</strong> Go Forward</p>
+<hr>
+<p><strong>Top Left:</strong> Previous Tag</p>
+<p><strong>Top Right:</strong> Next Tag</p>
+<hr>
+<p><strong>Trigger Left:</strong> Go To Top under cursor</p>
+<p><strong>Trigger Right:</strong> Go To Bottom under cursor</p>
+<p>Functions in my <code>wm</code> look like:</p>
+<pre><code class="language-lua">function Utils.home_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(true, false, false, &quot;Home&quot;)
+  end
+end
+
+function Utils.end_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(true, false, false, &quot;End&quot;)
+  end
+end
+</code></pre>
+<hr>
+<p><strong>Thumb Left:</strong> Move cursor to next screen</p>
+<p>In my <code>wm</code> this places the cursor on the next screen to the right and places it at the center.</p>
+<p>This is useful to fast-travel instead of moving the cursor with the stick all the way there.</p>
+<p>It wraps when it reaches the last screen.</p>
+<p>The functions in my <code>wm</code> look like this:</p>
+<pre><code class="language-lua">function Utils.center_cursor()
+  local screen = Utils.my_screen()
+  local workarea = screen.workarea
+
+  mouse.coords({
+    x = workarea.x + workarea.width / 2,
+    y = workarea.y + workarea.height / 2,
+  })
+end
+
+function Utils.cursor_on_next_screen()
+  awful.screen.focus_relative(1)
+  Utils.center_cursor()
+end
+</code></pre>
+<hr>
+<p><strong>Thumb Right:</strong> Refresh (F5) under cursor</p>
+<p>Functions in my <code>wm</code> look like:</p>
+<pre><code class="language-lua">function Utils.refresh_on_cursor()
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.focus(c)
+    Utils.fake_input_do(false, false, false, &quot;F5&quot;)
+  end
+end
+</code></pre>
+<hr>
+<p><strong>Select:</strong> Play/Pause music</p>
+<p><strong>Start:</strong> Lock screen</p>
+<p><strong>Big Button:</strong> Toggle maximize on window under cursor</p>
+<p>The functions in my <code>wm</code> look like this:</p>
+<pre><code class="language-lua">function Utils.maximize(c)
+  c.maximized = not c.maximized
+  Utils.focus(c)
+end
+
+function Utils.maximize_on_cursor(c)
+  local c = mouse.object_under_pointer()
+
+  if c then
+    Utils.maximize(c)
+  end
+end
+</code></pre>
+<hr>
+<h2>Mod Button</h2>
+<p><code>Button Right</code> is a button that can be used with other buttons for further mappings.</p>
+<p>I&#39;ll refer to it as <code>Mod</code>.</p>
+<hr>
+<p><strong>Mod + Pad Left:</strong> Audio Prev</p>
+<p><strong>Mod + Pad Right:</strong> Audio Next</p>
+<p><strong>Mod + Pad Up:</strong> Volume Up</p>
+<p><strong>Mod + Pad Down:</strong> Volume Down</p>
+<p><strong>Mod + Top Left:</strong> Esc Key</p>
+<p><strong>Mod + Top Right:</strong> ScrollLock (I use it to trigger the Util Screen)</p>
+<p><strong>Mod + Stick Left:</strong> Faster cursor movement (Turbo)</p>
+<p><strong>Mod + Stick Right:</strong> Horizontal wheel scrolling</p>
+<p><strong>Mod + Big Button:</strong> Close application under cursor</p>
+<p>The function in my <code>wm</code> looks similar to:</p>
+<pre><code class="language-lua">function Utils.close_on_cursor(c)
+  local c = mouse.object_under_pointer()
+
+  if c then
+    c:kill()
+  end
+end
+</code></pre>
+<p><strong>Mod + Select:</strong> Ctrl + c (Copy)</p>
+<p><strong>Mod + Start:</strong> Ctrl + v (Paste)</p>
+<p><strong>Mod + Button Top:</strong> Enter</p>
+<hr>
+<h2>Hints</h2>
+<p>If <code>input-remapper</code> is not detecting the device after installation, try re-plugging the controller and restart the program.</p>
+<p><code>input-remapper-gtk</code> might periodically stop working while you&#39;re editing buttons because it loses root access, you&#39;re supposed to input the password again in the terminal where you run it.</p>
+<p><code>input-remapper-gtk</code> shows important information in the footer at the bottom.</p>
+
