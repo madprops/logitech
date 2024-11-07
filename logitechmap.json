@@ -82,7 +82,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioLowerVolume",
+        "output_symbol": "Control_L + KEY_KPMINUS",
         "name": "Pad Down",
         "mapping_type": "key_macro"
     },
@@ -96,7 +96,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioRaiseVolume",
+        "output_symbol": "Control_L + KEY_KPPLUS",
         "name": "Pad Up",
         "mapping_type": "key_macro"
     },
@@ -140,7 +140,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioPrev",
+        "output_symbol": "KEY_BACK",
         "name": "Pad Left",
         "mapping_type": "key_macro"
     },
@@ -154,7 +154,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioNext",
+        "output_symbol": "KEY_FORWARD",
         "name": "Pad Right",
         "mapping_type": "key_macro"
     },
@@ -238,7 +238,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Control_L + KEY_KPPLUS",
+        "output_symbol": "XF86AudioRaiseVolume",
         "name": "Mod + Pad Up",
         "mapping_type": "key_macro"
     },
@@ -257,7 +257,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Control_L + KEY_KPMINUS",
+        "output_symbol": "XF86AudioLowerVolume",
         "name": "Mod + Pad Down",
         "mapping_type": "key_macro"
     },
@@ -276,7 +276,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_BACK",
+        "output_symbol": "XF86AudioPrev",
         "name": "Mod + Pad Left",
         "mapping_type": "key_macro"
     },
@@ -295,7 +295,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_FORWARD",
+        "output_symbol": "XF86AudioNext",
         "name": "Mod + Pad Right",
         "mapping_type": "key_macro"
     },

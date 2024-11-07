@@ -52,13 +52,13 @@ It includes some shortcuts I use in my `wm` which might not be relevant to yours
 
 ---
 
-**Pad Left:** Audio Prev
+**Pad Up:** Zoom In
 
-**Pad Right:** Audio Next
+**Pad Down:** Zoom Out
 
-**Pad Up:** Volume Up
+**Pad Left:** Go Back
 
-**Pad Down:** Volume Down
+**Pad Right:** Go Forward
 
 ---
 
@@ -175,13 +175,13 @@ I'll refer to it as `Mod`.
 
 ---
 
-**Mod + Pad Up:** Zoom In
+**Mod + Pad Left:** Audio Prev
 
-**Mod + Pad Down:** Zoom Out
+**Mod + Pad Right:** Audio Next
 
-**Mod + Pad Left:** Go Back
+**Mod + Pad Up:** Volume Up
 
-**Mod + Pad Right:** Go Forward
+**Mod + Pad Down:** Volume Down
 
 **Mod + Top Left:** Esc Key
 
