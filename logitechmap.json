@@ -12,7 +12,7 @@
         "output_code": 1,
         "name": "Stick Left (Vertical)",
         "mapping_type": "analog",
-        "deadzone": 0.02,
+        "deadzone": 0.05,
         "gain": 0.12,
         "expo": 1.0
     },
@@ -29,7 +29,7 @@
         "output_code": 0,
         "name": "Stick Left (Horizontal)",
         "mapping_type": "analog",
-        "deadzone": 0.02,
+        "deadzone": 0.05,
         "gain": 0.12,
         "expo": 1.0
     },
@@ -117,34 +117,6 @@
         "input_combination": [
             {
                 "type": 3,
-                "code": 2,
-                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
-                "analog_threshold": 20
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Super_L  + Shift_L + KEY_HOME",
-        "name": "Trigger Left",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 3,
-                "code": 5,
-                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
-                "analog_threshold": 20
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Super_L  + Shift_L + KEY_END",
-        "name": "Trigger Right",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 3,
                 "code": 4,
                 "origin_hash": "eb824659d027167bdb5fffae8d53ede7"
             }
@@ -154,7 +126,7 @@
         "output_code": 8,
         "name": "Stick Right (Vertical)",
         "mapping_type": "analog",
-        "deadzone": 0.02,
+        "deadzone": 0.05,
         "gain": -0.28,
         "expo": -1.0
     },
@@ -544,6 +516,34 @@
         "target_uinput": "keyboard",
         "output_symbol": "KEY_ENTER",
         "name": "Mod + Button Top",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 2,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 20
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L  + Shift_L + KEY_HOME",
+        "name": "Trigger Left",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 5,
+                "origin_hash": "eb824659d027167bdb5fffae8d53ede7",
+                "analog_threshold": 20
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L  + Shift_L + KEY_END",
+        "name": "Trigger Right",
         "mapping_type": "key_macro"
     }
 ]
