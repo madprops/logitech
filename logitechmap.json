@@ -140,7 +140,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_BACK",
+        "output_symbol": "key_down(KEY_BACK).key_up(KEY_BACK)",
         "name": "Pad Left",
         "mapping_type": "key_macro"
     },
@@ -154,7 +154,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_FORWARD",
+        "output_symbol": "key_down(KEY_FORWARD).key_up(KEY_FORWARD)",
         "name": "Pad Right",
         "mapping_type": "key_macro"
     },
@@ -193,7 +193,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioPause",
+        "output_symbol": "key_down(XF86AudioPause).key_up(XF86AudioPause)",
         "name": "Select",
         "mapping_type": "key_macro"
     },
@@ -276,7 +276,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioPrev",
+        "output_symbol": "key_down(XF86AudioPrev).key_up(XF86AudioPrev)",
         "name": "Mod + Pad Left",
         "mapping_type": "key_macro"
     },
@@ -295,7 +295,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "XF86AudioNext",
+        "output_symbol": "key_down(XF86AudioNext).key_up(XF86AudioNext)",
         "name": "Mod + Pad Right",
         "mapping_type": "key_macro"
     },
@@ -313,7 +313,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_ESC",
+        "output_symbol": "key_down(KEY_ESC).key_up(KEY_ESC)",
         "name": "Mod + Top Left",
         "mapping_type": "key_macro"
     },
@@ -496,7 +496,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_SCROLLLOCK",
+        "output_symbol": "key_down(KEY_SCROLLLOCK).key_up(KEY_SCROLLLOCK)",
         "name": "Mod + Top Right",
         "mapping_type": "key_macro"
     },
@@ -514,7 +514,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_ENTER",
+        "output_symbol": "key_down(KEY_ENTER).key_up(KEY_ENTER)",
         "name": "Mod + Button Top",
         "mapping_type": "key_macro"
     },
