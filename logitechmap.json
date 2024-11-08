@@ -42,7 +42,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, key_down(Left).key_up(Left))",
+        "output_symbol": "modify(Super_L, key(KEY_LEFT))",
         "name": "Top Left",
         "mapping_type": "key_macro"
     },
@@ -82,7 +82,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Control_L, key_down(KEY_KPMINUS).key_up(KEY_KPMINUS))",
+        "output_symbol": "modify(Control_L, key(KEY_KPMINUS))",
         "name": "Pad Down",
         "mapping_type": "key_macro"
     },
@@ -96,7 +96,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Control_L, key_down(KEY_KPPLUS).key_up(KEY_KPPLUS))",
+        "output_symbol": "modify(Control_L, key(KEY_KPPLUS))",
         "name": "Pad Up",
         "mapping_type": "key_macro"
     },
@@ -109,7 +109,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, key_down(Right).key_up(Right))",
+        "output_symbol": "modify(Super_L, key(KEY_RIGHT))",
         "name": "Top Right",
         "mapping_type": "key_macro"
     },
@@ -140,7 +140,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(KEY_BACK).key_up(KEY_BACK)",
+        "output_symbol": "key(KEY_BACK)",
         "name": "Pad Left",
         "mapping_type": "key_macro"
     },
@@ -154,7 +154,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(KEY_FORWARD).key_up(KEY_FORWARD)",
+        "output_symbol": "key(KEY_FORWARD)",
         "name": "Pad Right",
         "mapping_type": "key_macro"
     },
@@ -167,7 +167,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(bracketright).key_up(bracketright)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(bracketright)))",
         "name": "Thumb Left",
         "mapping_type": "key_macro"
     },
@@ -180,7 +180,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(KEY_F5).key_up(KEY_F5)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(KEY_F5)))",
         "name": "Thumb Right",
         "mapping_type": "key_macro"
     },
@@ -193,7 +193,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(XF86AudioPause).key_up(XF86AudioPause)",
+        "output_symbol": "key(XF86AudioPause)",
         "name": "Select",
         "mapping_type": "key_macro"
     },
@@ -206,7 +206,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(KEY_L).key_up(KEY_L)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(KEY_L)))",
         "name": "Start",
         "mapping_type": "key_macro"
     },
@@ -219,7 +219,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(KEY_M).key_up(KEY_M)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(KEY_M)))",
         "name": "Big Button",
         "mapping_type": "key_macro"
     },
@@ -276,7 +276,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(XF86AudioPrev).key_up(XF86AudioPrev)",
+        "output_symbol": "key(XF86AudioPrev)",
         "name": "Mod + Pad Left",
         "mapping_type": "key_macro"
     },
@@ -295,7 +295,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(XF86AudioNext).key_up(XF86AudioNext)",
+        "output_symbol": "key(XF86AudioNext)",
         "name": "Mod + Pad Right",
         "mapping_type": "key_macro"
     },
@@ -313,7 +313,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(KEY_ESC).key_up(KEY_ESC)",
+        "output_symbol": "key(KEY_ESC)",
         "name": "Mod + Top Left",
         "mapping_type": "key_macro"
     },
@@ -422,7 +422,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Control_L, modify(Shift_L, key_down(KEY_ESC).key_up(KEY_ESC)))",
+        "output_symbol": "modify(Control_L, modify(Shift_L, key(KEY_ESC)))",
         "name": "Mod + Big Button",
         "mapping_type": "key_macro"
     },
@@ -440,7 +440,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Control_L, key_down(KEY_C).key_up(KEY_C))",
+        "output_symbol": "modify(Control_L, key(KEY_C))",
         "name": "Mod + Select",
         "mapping_type": "key_macro"
     },
@@ -458,7 +458,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Control_L, key_down(KEY_V).key_up(KEY_V))",
+        "output_symbol": "modify(Control_L, key(KEY_V))",
         "name": "Mod + Start",
         "mapping_type": "key_macro"
     },
@@ -496,7 +496,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(KEY_SCROLLLOCK).key_up(KEY_SCROLLLOCK)",
+        "output_symbol": "key(KEY_SCROLLLOCK)",
         "name": "Mod + Top Right",
         "mapping_type": "key_macro"
     },
@@ -514,7 +514,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "key_down(KEY_ENTER).key_up(KEY_ENTER)",
+        "output_symbol": "key(KEY_ENTER)",
         "name": "Mod + Button Top",
         "mapping_type": "key_macro"
     },
@@ -528,7 +528,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(KEY_HOME).key_up(KEY_HOME)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(KEY_HOME)))",
         "name": "Trigger Left",
         "mapping_type": "key_macro"
     },
@@ -542,7 +542,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "modify(Super_L, modify(Shift_L, key_down(KEY_END).key_up(KEY_END)))",
+        "output_symbol": "modify(Super_L, modify(Shift_L, key(KEY_END)))",
         "name": "Trigger Right",
         "mapping_type": "key_macro"
     }
